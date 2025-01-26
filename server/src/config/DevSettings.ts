@@ -6,7 +6,7 @@ import { Env } from "../enums/Env";
 export const devConfig = {
   maproom: true,
   inferno: false,
-  shiny: 1000,
+  shiny: 1000000,
   debugMode: false,
   devSandbox: false,
   debugSandbox: false,

@@ -33,7 +33,7 @@ services:
       db:
         condition: service_healthy
   db:
-    image: mariadb:lts
+    image: mariadb:10.4
     environment:
       - MARIADB_ROOT_PASSWORD=root
       - MARIADB_USER=bymr
